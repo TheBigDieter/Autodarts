@@ -1,0 +1,29 @@
+{
+  "20": {
+    "image_width": 1280,
+    "image_height": 720,
+    "bullseye": [349, 252],
+    "board_center": [352, 215],
+    "axis_major": 257.58,
+    "axis_minor": 413.93,
+    "rotation_deg": 91.43
+  },
+  "16": {
+    "image_width": 1280,
+    "image_height": 720,
+    "bullseye": [326, 274],
+    "board_center": [327, 236],
+    "axis_major": 262.32,
+    "axis_minor": 422.64,
+    "rotation_deg": 90.93
+  },
+  "15": {
+    "image_width": 1280,
+    "image_height": 720,
+    "bullseye": [288, 282],
+    "board_center": [288, 247],
+    "axis_major": 256.14,
+    "axis_minor": 414.06,
+    "rotation_deg": 88.07
+  }
+}
