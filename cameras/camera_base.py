@@ -10,8 +10,8 @@ class CameraBase:
         if not self.cap.isOpened():
             raise RuntimeError(f"{name} could not open index {device_index}")
 
-        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
-        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+        # self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+        # self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 
     def read(self):
         ret, frame = self.cap.read()
